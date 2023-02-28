@@ -1,0 +1,111 @@
+/*
+ * Proyecto CV
+ * Gonzalo Iglesias
+ * ---------
+ */
+
+body {
+    align-items: center;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+.cv {
+    display: flex;
+    width: 800px;
+}
+
+.col-izq {
+    background-color: #445868;
+    color: #ffffff;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    padding-bottom: 2em;
+    width: 40%;
+}
+
+.col-der {
+    background-color: #ffffff;
+    color: #404040;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    width: 60%;
+}
+
+.foto {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.col-izq hr {
+    margin-bottom: 1.5em;
+    margin-top: 2.5em;
+}
+
+.col-der hr {
+    border: 0;
+    background-color: #445868;
+    height: 5px;
+    max-width: 60%;
+    margin: 0px;
+}
+
+h1 {
+    color: #44586A;
+    font-family: arial;
+    font-size: 3.3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.9em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.icon {
+    margin-right: 1em;
+}
+
+.contacto {
+    font-size: 1.1em;
+    margin-bottom: 0.1em;
+    margin-top: 0;
+}
+
+.experiencia {
+    margin-top: 1.6em;
+}
+
+.sin-margen-superior {
+    margin-top: 0;
+}
+
+.sin-margen-inferior {
+    margin-bottom: 6px;
+}
+
+.margen-col-izq {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top : 2em;
+}
